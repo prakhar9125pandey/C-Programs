@@ -1,0 +1,202 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+ 
+<title>AnyTime Fitness</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="stylesheet/classesCSS.css" rel="stylesheet">
+  <link href="stylesheet/headerCSS.css" rel="stylesheet">
+  <link href="stylesheet/footerCSS.css" rel="stylesheet">
+  <link href="stylesheet/class.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+    
+    <div class="header">
+      <div class="logo">
+        <a href="homepage.html">
+          <img src="images/logo.png" alt="Anytime Fitness home" title="Anytime Fitness" width="152px" >
+        </a>
+      </div>
+    
+      <div class="navigation-menu">
+        <a href="homepage.html">Home</a>
+        <a href="aboutUs.html" class="active">About Us</a>
+        <a href="classes.html">Classes</a>
+        <a href="dietCounselling.html">Diet Counselling</a>
+        <a href="healthAndFitness.html">Health</a>
+        <a href="spa.html">SPA</a>
+        <a href="register.html">Register</a>
+                           <a href="login.html">login</a>
+  
+        <a href="contactUs.html">Contact Us</a>
+      </div>
+    </div>
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 24%;
+  margin-bottom: 16px;
+  margin-right: 0px;
+  padding: 0 8px;
+}
+
+.column1 {
+  float: left;
+  width: 28%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+
+}
+.card {
+  width: 80%;
+  box-shadow: 10px 10px 10px 10px rgba(198, 53, 255, 0.2);
+  margin: 40px;
+  text-align: center;
+}
+
+.about-section {
+  padding: 30px;
+  text-align: center;
+  background-color: #f281ff;
+  color: rgb(0, 0, 0);
+  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  animation-name: gg;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes gg {
+  from{background-color:rgb(195, 98, 241);}
+  to {background-color: rgb(186, 246, 65);}
+}
+
+.container {
+
+  padding: 0 4px;
+
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+.content {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0); 
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 25.6%;
+  padding: 0 8px;
+
+}
+</style>
+</head>
+<body>
+
+<div class="about-section">
+  <h1>ABOUT US</h1>
+  <p>Some information about who we are.</p>
+
+  
+</div>
+
+<h1 style="text-align:center">Our Team</h1>
+
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="images\prakhar.png" alt="Prakhar" style="width: 100%">
+      <div class="container">
+        <h2>Prakhar Pandey</h2>
+        <p class="title">CEO</p><br><br>
+        <p>Lives in Ghazipur,Uttar Pradesh.</p><br><br>
+        <p>prakhar9125pandey@gmail.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="images\sneha.png" alt="Sneha" style="width: 100%">
+      <div class="container">
+        <h2>Palakurthy Sneha</h2>
+        <p class="title">CO-FOUNDER</p><br><br>
+        <p>Lives in Warangal,Telengana .</p><br><br>
+        <p>palakurthisneha.10@gmail.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <img src="images\aryan.png" alt="Aryan" style="width:100%">
+      <div class="container">
+        <h2>Aryan Chhetri</h2>
+        <p class="title">CO-FOUNDER</p><br><br>
+        <p>Lives in Kathmandu,Nepal.</p><br><br>
+        <p>aryanjr53@gmail.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+
+
+<div class="column1">
+  <div class="card">
+    <img src="images\gg.png" alt="haveli" style="width:100%">
+    <p><button class="button">At haveli</button></p>
+    </div>
+    
+  </div>
+</div>
+</div>
+</div>
+
+</body>
+</html>
