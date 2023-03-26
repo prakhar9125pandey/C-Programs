@@ -1,0 +1,69 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+string s1 = "welcome";
+string s2;
+s2=s1.substr(1,4);
+cout<<s2;
+return 0;
+}
+
+
+#include<iostream>
+using namespace std;
+int main()
+{
+string s1="Hello";
+string s2="World";
+if(s1>s2)
+cout<<"\ns1 is greater";
+else
+cout<<"\ns2 is greater";
+return 0;
+}
+
+
+
+#include<iostream>
+using namespace std;
+ int main()
+{
+   string s1="Hello";
+   string s2="World";
+   string s3=s1+s2;//Concatenation(or Combining)
+   cout<<s3;
+   return 0;
+}
+
+
+
+
+#include<iostream>
+ using namespace std;
+ int main()
+{
+   string s1="Hello";
+   for(int i=0;i<s1.length();i++)
+   {
+       cout<<s1[i]<<" ";
+   }
+   return 0;
+}
+
+
+
+#include<iostream>
+using namespace std;
+int main()
+{
+string s1="Hello";
+for(int i=0;i<s1.length();i++)
+{
+cout<<s1.at(i)<<" ";
+}
+return 0;
+}
+
+
+

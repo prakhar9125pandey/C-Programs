@@ -1,0 +1,5 @@
+Doctor ID: 0
+Doctor Name: 
+Doctor Salary: 16777216
+Doctor Specialization: 
+
