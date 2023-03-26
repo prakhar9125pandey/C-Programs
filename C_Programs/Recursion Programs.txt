@@ -1,0 +1,121 @@
+// Recursion
+
+#include <stdio.h>
+int i=1;
+
+int main() // Recursive function
+{
+
+printf("%d ",i);
+i++;
+
+if(i<=10)
+main(); // Recursive call
+
+return 0;
+}
+                                               
+
+
+
+// Recursion
+
+#include <stdio.h>
+int i=1;
+
+int main() // Recursive function
+{
+
+printf("%d ",i);
+i++;
+
+if(i<=10)
+main(); // Recursive call
+
+i--;
+printf("%d ",i);
+
+
+return 0;
+}
+
+
+
+
+
+
+// Recursion
+
+#include <stdio.h>
+int i=1;
+
+int main() // Recursive function
+{
+
+printf("\n call created: %d ",i);
+i++;
+
+if(i<=5)
+main(); // Recursive call
+
+i--;
+printf("\n Call conmpleted: %d ",i);
+
+
+return 0;
+}
+
+
+
+
+
+
+#include <stdio.h>
+
+int fact(int);
+void main()
+{
+int n , result;
+printf("\n enter a number to find factorial: ");
+scanf("%d", &n);
+result = fact(n);
+printf("\n Factorial of %d = %d", n, result);
+}
+
+int fact(int x)
+{
+int t=1;
+
+for(int i=1; i<=x; i++)
+{
+t=t*i;
+}
+return t;
+
+}
+
+
+
+
+
+
+#include <stdio.h>
+
+int fact(int);
+void main()
+{
+int n , result;
+printf("\n enter a number to find factorial: ");
+scanf("%d", &n);
+result = fact(n);
+printf("\n Factorial of %d = %d", n, result);
+}
+
+int fact(int x)
+{
+if(x==1)
+return 1;
+else
+return(x*fact(x-1));
+
+}
